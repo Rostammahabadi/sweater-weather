@@ -1,5 +1,5 @@
 class MapquestDirectionService
-  def get_distance(from,to)
+def get_distance(from,to)
   params = {from: from, to: to}
   data = get_json('route', params)
   data[:route][:distance]
@@ -13,7 +13,7 @@ def conn
     f.params[:key] = ENV['MAPQUEST_API_KEY']
     f.params[:outFormat] = "json"
     f.params[:ambiguities] = "ignore"
-    f.params[:roteType] = "fastest"
+    f.params[:roteType] = "shortest"
     f.params[:doReverseGeocoding] = true
     f.params[:enhancedNarrative] = false
     f.params[:avoidTimedConditions] = false

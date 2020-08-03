@@ -14,18 +14,16 @@ class Trail
   end
 
   def create_trails(data, lat, lon)
-    trails = []
     format_lat_lng = lat.to_s + "," + lon.to_s
-    data.data[:trails].each do |trail|
+    data.data[:trails].each_with_object([]) do |trail, arr|
       hsh = {}
       formatted_lat_lng = trail[:latitude].to_s + "," + trail[:longitude].to_s
       hsh[:name] = trail[:name]
       hsh[:summary] = trail[:summary]
       hsh[:location] = trail[:location]
       hsh[:distance_to_trail] = MapquestDirectionService.new.get_distance(format_lat_lng, formatted_lat_lng)
-      trails << hsh
+      arr << hsh
     end
-    trails
   end
 
   def null
