@@ -2,8 +2,8 @@ require 'rails_helper'
 
 RSpec.describe "the trails service" do
   it "gets the data" do
-    service = HikingProjectService.new.get_trails_by_lat_lng({:lat=>39.738453, :lng=>-104.984853})
-    json = JSON.parse(service.body, symbolize_names: true)
+    service = File.read("./spec/fixtures/hiking_project.json")
+    json = JSON.parse(service, symbolize_names: true)
     expect(json[:trails].first[:name]).to eq("Boulder Skyline Traverse")
     expect(json[:trails].first[:summary]).to eq("The classic long mountain route in Boulder.")
     expect(json[:trails].first[:difficulty]).to eq("black")

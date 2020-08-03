@@ -4,7 +4,6 @@ class Trail
     @location = location
     @forecast = create_forecast(forecast_data)
     @trails =  create_trails(trails_data, forecast_data.response[:lat], forecast_data.response[:lon])
-    binding.pry
   end
 
   def create_forecast(data)
@@ -25,6 +24,10 @@ class Trail
       trails << hsh
     end
     trails
+  end
+
+  def null
+    "null"
   end
 
 end

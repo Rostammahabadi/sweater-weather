@@ -1,6 +1,6 @@
 class Api::V1::TrailsController < ApplicationController
   def index
-    create_trail_object
+    render json: TrailSerializer.new(create_trail_object)
   end
 
   private
