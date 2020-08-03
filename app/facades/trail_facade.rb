@@ -8,5 +8,4 @@ class TrailFacade
     HikingProjectService.new.get_trails_by_lat_lng(lat, lng)
   end
 
-
 end

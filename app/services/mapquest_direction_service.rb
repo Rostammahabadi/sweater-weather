@@ -1,8 +1,8 @@
 class MapquestDirectionService
-  def get_distance(lat,lng)
-  params = {from: lat, to: lng}
+  def get_distance(from,to)
+  params = {from: from, to: to}
   data = get_json('route', params)
-  {:lat =>get_lat(data), :lng => get_long(data)}
+  data[:route][:distance]
 end
 
 

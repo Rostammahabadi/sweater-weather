@@ -1,23 +1,30 @@
 class Trail
-  attr_reader :location, :forecast, :trails, :distance_to_trail
-  def initialize(location, forecast_data, trails_data, distance_data)
-    binding.pry
+  attr_reader :location, :forecast, :trails
+  def initialize(location, forecast_data, trails_data)
     @location = location
-    @forecast = {}
-    @trails = []
-    @distance_to_trail = ""
-    create_forecast(forecast_data)
-    create_trails(trails_data)
-    create_distance_to_trail(distance_data)
+    @forecast = create_forecast(forecast_data)
+    @trails =  create_trails(trails_data, forecast_data.response[:lat], forecast_data.response[:lon])
+    binding.pry
   end
 
   def create_forecast(data)
-
+    {summary: data.response[:current][:weather].first[:description],
+    temperature: data.response[:current][:temp]}
   end
 
-  def create_trails(data)
-
+  def create_trails(data, lat, lon)
+    trails = []
+    format_lat_lng = lat.to_s + "," + lon.to_s
+    data.data[:trails].each do |trail|
+      hsh = {}
+      formatted_lat_lng = trail[:latitude].to_s + "," + trail[:longitude].to_s
+      hsh[:name] = trail[:name]
+      hsh[:summary] = trail[:summary]
+      hsh[:location] = trail[:location]
+      hsh[:distance_to_trail] = MapquestDirectionService.new.get_distance(format_lat_lng, formatted_lat_lng)
+      trails << hsh
+    end
+    trails
   end
 
-  def create_distance_to_trail(data)
 end
