@@ -1,7 +1,7 @@
 class OpenWeatherService
-  def get_weather(destination, unit)
-    params = {q: destination, units: unit}
-    get_json("weather", params)
+  def get_weather_for_lat_and_lng(lat, lng, unit)
+    params = {lat: lat, lon: lng, units: unit}
+    get_json("onecall", params)
   end
 
   private
