@@ -6,8 +6,6 @@ class Trail
     @trails =  create_trails(trails_data, forecast_data.response[:lat], forecast_data.response[:lon])
   end
 
-  private
-
   def create_forecast(data)
     {summary: data.response[:current][:weather].first[:description],
     temperature: data.response[:current][:temp]}

@@ -9,6 +9,8 @@ class Weather
     create_hourly(data)
   end
 
+  private
+
   def create_current(data)
     current[:datetime] = data[:current][:dt]
     current[:temp_high] = data[:daily].first[:temp][:max] #
