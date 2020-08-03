@@ -1,0 +1,363 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/rostammahabadi/Mod3/sweater_weather/spec/services/hiking_project_service_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rostammahabadi/Mod3/sweater_weather/spec/services/mapquest_direction_service_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rostammahabadi/Mod3/sweater_weather/spec/services/mapquest_geocoding_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rostammahabadi/Mod3/sweater_weather/spec/services/one_call_weather_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/rostammahabadi/Mod3/sweater_weather/spec/services/open_weather_api_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/rostammahabadi/Mod3/sweater_weather/spec/services/trails_service_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/rostammahabadi/Mod3/sweater_weather/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/rostammahabadi/Mod3/sweater_weather/app/controllers/api/v1/trails_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          2,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/rostammahabadi/Mod3/sweater_weather/app/serializers/trail_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/rostammahabadi/Mod3/sweater_weather/app/facades/mapquest_facade.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rostammahabadi/Mod3/sweater_weather/app/services/mapquest_address_service.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/rostammahabadi/Mod3/sweater_weather/app/facades/weather_facade.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/rostammahabadi/Mod3/sweater_weather/app/services/open_weather_service.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rostammahabadi/Mod3/sweater_weather/app/facades/trail_facade.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rostammahabadi/Mod3/sweater_weather/app/services/hiking_project_service.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
+          1,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/rostammahabadi/Mod3/sweater_weather/app/POROS/trail.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rostammahabadi/Mod3/sweater_weather/app/services/mapquest_direction_service.rb": {
+        "lines": [
+          1,
+          1,
+          11,
+          11,
+          11,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          null,
+          null,
+          null,
+          1,
+          11,
+          11,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1596476446
+  }
+}

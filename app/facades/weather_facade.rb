@@ -1,13 +1,10 @@
-require 'date'
 class WeatherFacade
   attr_reader :response
-  def initialize(destination, unit)
-    @destination = destination
-    @unit = unit
-    @response ||= get_weather_for(destination, unit)
+  def initialize(lat, lng, unit)
+    @response = get_weather_for(lat, lng, unit)
   end
 
-  def get_weather_for(destination, unit)
-    OpenWeatherApiService.new.get_weather(destination, unit)
+  def get_weather_for(lat, lng, unit)
+    OpenWeatherService.new.get_weather_for_lat_and_lng(lat, lng, unit)
   end
 end
