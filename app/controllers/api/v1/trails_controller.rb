@@ -10,4 +10,10 @@ class Api::V1::TrailsController < ApplicationController
   def trails_params
     params.permit(:location)
   end
+
+  def create_trail_object
+    lat_and_long = MapquestFacade.new(trails_params[:location]).get_lat_and_long
+    weather = WeatherFacade.new(lat_and_long[:lat], lat_and_long[:lng], "imperial")
+
+  end
 end
