@@ -1,6 +1,7 @@
 class Trail
   attr_reader :location, :forecast, :trails, :distance_to_trail
   def initialize(location, forecast_data, trails_data, distance_data)
+    binding.pry
     @location = location
     @forecast = {}
     @trails = []

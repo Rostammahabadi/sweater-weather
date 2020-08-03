@@ -1,9 +1,10 @@
 class HikingProjectService
 
-  def get_trails_by_lat_lng(params)
-    params = {lat: params[:lat], lon: params[:lng]}
-    conn.get("get-trails", params)
+  def get_trails_by_lat_lng(lat, lng)
+    params = {lat: lat, lon: lng}
+    get_json("get-trails", params)
   end
+
   private
 
   def conn

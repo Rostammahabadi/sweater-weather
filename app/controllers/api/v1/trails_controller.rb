@@ -1,8 +1,6 @@
 class Api::V1::TrailsController < ApplicationController
   def index
-    lat_and_long = MapquestFacade.new(trails_params[:location]).get_lat_and_long
-    weather = WeatherFacade.new(lat_and_long[:lat], lat_and_long[:lng], "imperial")
-    Trail.new(trails_params[:location], weather, )
+    create_trail_object
   end
 
   private
@@ -14,6 +12,7 @@ class Api::V1::TrailsController < ApplicationController
   def create_trail_object
     lat_and_long = MapquestFacade.new(trails_params[:location]).get_lat_and_long
     weather = WeatherFacade.new(lat_and_long[:lat], lat_and_long[:lng], "imperial")
-
+    trails = TrailFacade.new(lat_and_long[:lat], lat_and_long[:lng])
+    Trail.new(trails_params[:location], weather, trails)
   end
 end
