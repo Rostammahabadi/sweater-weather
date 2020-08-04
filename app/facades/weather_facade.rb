@@ -7,8 +7,4 @@ class WeatherFacade
   def get_weather_for(lat, lng, unit)
     OpenWeatherService.new.get_weather_for_lat_and_lng(lat, lng, unit)
   end
-
-  def create_weather(response)
-    Weather.new(response)
-  end
 end
