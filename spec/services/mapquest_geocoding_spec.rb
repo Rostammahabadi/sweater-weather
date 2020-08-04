@@ -12,9 +12,11 @@ RSpec.describe "mapquest geocoding" do
   end
 
   it "return the lat and long using service" do
-    facade = MapquestFacade.new("denver,co")
-    lat_and_lng = facade.get_lat_and_long
-    expect(lat_and_lng[:lat]).to eq(39.738453)
-    expect(lat_and_lng[:lng]).to eq(-104.984853)
+    VCR.use_cassette("Mapquest get lat and long service") do
+      facade = MapquestFacade.new("denver,co")
+      lat_and_lng = facade.get_lat_and_long
+      expect(lat_and_lng[:lat]).to eq(39.738453)
+      expect(lat_and_lng[:lng]).to eq(-104.984853)
+    end
   end
 end
