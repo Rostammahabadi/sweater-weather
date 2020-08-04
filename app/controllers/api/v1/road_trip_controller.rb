@@ -12,7 +12,7 @@ class Api::V1::RoadTripController < ApplicationController
         render json: { error: "Invalid API key"}, status: 401
       end
     else
-      render json: {error: "Provide an API Key"}, status: 401
+      render json: {error: "Provide an API Key"}, status: 400
     end
   end
 
