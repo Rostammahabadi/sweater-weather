@@ -12,7 +12,7 @@ describe "road trip" do
       expect(json[:data][:attributes][:origin]).to eq("denver,co")
       expect(json[:data][:attributes][:destination]).to eq("boulder,co")
       expect(json[:data][:attributes][:travel_time]).to eq(30.098)
-      expect(json[:data][:attributes][:arrival_forecast][:datetime]).to eq(1596569406)
+      expect(json[:data][:attributes][:arrival_forecast][:datetime]).to eq(1596569728)
       expect(json[:data][:attributes][:arrival_forecast][:description]).to eq("clear sky")
     end
   end

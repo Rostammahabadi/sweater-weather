@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 04 Aug 2020 19:30:01 GMT
+      - Tue, 04 Aug 2020 19:35:24 GMT
       Content-Type:
       - application/json;charset=UTF-8
       Content-Length:
@@ -35,7 +35,7 @@ http_interactions:
       Geocodetransactioncount:
       - '1'
       Last-Modified:
-      - Tue, 04 Aug 2020 19:30:01 GMT
+      - Tue, 04 Aug 2020 19:35:24 GMT
       Pragma:
       - no-cache
       Reversegeocodetransactioncount:
@@ -43,7 +43,7 @@ http_interactions:
       Server:
       - Apache-Coyote/1.1
       Set-Cookie:
-      - JSESSIONID=745BF4E4AB9D320021E95CAB1C43E75D; Path=/; HttpOnly
+      - JSESSIONID=BD0D3B7AD38FD620ACEBA7101A74BBFE; Path=/; HttpOnly
       Status:
       - success
       Transactionweight:
@@ -66,7 +66,7 @@ http_interactions:
         Avenue","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"New
         Market","adminArea5Type":"City","adminArea4":"","adminArea4Type":"County","adminArea3":"IA","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"50857,
         51646","geocodeQualityCode":"B3CCA","geocodeQuality":"STREET","dragPoint":false,"sideOfStreet":"N","linkId":"US/STR/p1/2231540","unknownInput":"","type":"s","latLng":{"lat":40.79236,"lng":-94.87125},"displayLatLng":{"lat":40.79236,"lng":-94.87125}},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Denver","adminArea5Type":"City","adminArea4":"","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"US/GEO/p0/85068","unknownInput":"","type":"s","latLng":{"lat":39.73845,"lng":-104.98485},"displayLatLng":{"lat":39.73845,"lng":-104.98485}}]}]}'
-  recorded_at: Tue, 04 Aug 2020 19:30:01 GMT
+  recorded_at: Tue, 04 Aug 2020 19:35:24 GMT
 - request:
     method: get
     uri: http://www.mapquestapi.com/geocoding/v1/address/?inFormat=kvp&key=wiuynlc4KmQXn7lckG55CpDAoRXwoqnB&location=%7B%22location%22=%3E%22denver,co%22%7D&outFormat=json&thumbMaps=false
@@ -86,7 +86,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 04 Aug 2020 19:30:02 GMT
+      - Tue, 04 Aug 2020 19:35:25 GMT
       Content-Type:
       - application/json;charset=UTF-8
       Content-Length:
@@ -102,7 +102,7 @@ http_interactions:
       Geocodetransactioncount:
       - '1'
       Last-Modified:
-      - Tue, 04 Aug 2020 19:30:02 GMT
+      - Tue, 04 Aug 2020 19:35:25 GMT
       Pragma:
       - no-cache
       Reversegeocodetransactioncount:
@@ -110,7 +110,7 @@ http_interactions:
       Server:
       - Apache-Coyote/1.1
       Set-Cookie:
-      - JSESSIONID=B91AD91B3552F7E53390719539C6C4EC; Path=/; HttpOnly
+      - JSESSIONID=C44957E12F4832A061028D71DE57557A; Path=/; HttpOnly
       Status:
       - success
       Transactionweight:
@@ -133,7 +133,7 @@ http_interactions:
         Avenue","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"New
         Market","adminArea5Type":"City","adminArea4":"","adminArea4Type":"County","adminArea3":"IA","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"50857,
         51646","geocodeQualityCode":"B3CCA","geocodeQuality":"STREET","dragPoint":false,"sideOfStreet":"N","linkId":"US/STR/p1/2231540","unknownInput":"","type":"s","latLng":{"lat":40.79236,"lng":-94.87125},"displayLatLng":{"lat":40.79236,"lng":-94.87125}},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Denver","adminArea5Type":"City","adminArea4":"","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"US/GEO/p0/85068","unknownInput":"","type":"s","latLng":{"lat":39.73845,"lng":-104.98485},"displayLatLng":{"lat":39.73845,"lng":-104.98485}}]}]}'
-  recorded_at: Tue, 04 Aug 2020 19:30:02 GMT
+  recorded_at: Tue, 04 Aug 2020 19:35:25 GMT
 - request:
     method: get
     uri: http://api.openweathermap.org/data/2.5/onecall?appid=ca343676cf7bc460440399de9fab4f40&lat=39.72906&lon=-105.16534&units=imperial
@@ -155,7 +155,7 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Tue, 04 Aug 2020 19:30:02 GMT
+      - Tue, 04 Aug 2020 19:35:25 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -230,7 +230,7 @@ http_interactions:
         clouds","icon":"04d"}],"clouds":63,"pop":0,"uvi":10.98},{"dt":1597086000,"sunrise":1597061321,"sunset":1597111400,"temp":{"day":90.7,"min":72.95,"max":92.68,"night":76.01,"eve":87.57,"morn":72.95},"feels_like":{"day":82.9,"night":67.5,"eve":79.74,"morn":64.76},"pressure":1010,"humidity":10,"dew_point":15.49,"wind_speed":6.22,"wind_deg":329,"weather":[{"id":801,"main":"Clouds","description":"few
         clouds","icon":"02d"}],"clouds":16,"pop":0,"uvi":10.37},{"dt":1597172400,"sunrise":1597147778,"sunset":1597197725,"temp":{"day":89.26,"min":70.39,"max":89.26,"night":72.03,"eve":77.27,"morn":70.39},"feels_like":{"day":82.58,"night":65.8,"eve":61.63,"morn":63.46},"pressure":1010,"humidity":11,"dew_point":19.62,"wind_speed":4.5,"wind_deg":103,"weather":[{"id":802,"main":"Clouds","description":"scattered
         clouds","icon":"03d"}],"clouds":25,"pop":0.16,"uvi":10.45}]}'
-  recorded_at: Tue, 04 Aug 2020 19:30:02 GMT
+  recorded_at: Tue, 04 Aug 2020 19:35:25 GMT
 - request:
     method: get
     uri: http://www.mapquestapi.com/geocoding/v1/address/?inFormat=kvp&key=wiuynlc4KmQXn7lckG55CpDAoRXwoqnB&location=%7B%22location%22=%3E%22denver,co%22%7D&outFormat=json&thumbMaps=false
@@ -250,7 +250,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 04 Aug 2020 19:30:03 GMT
+      - Tue, 04 Aug 2020 19:35:26 GMT
       Content-Type:
       - application/json;charset=UTF-8
       Content-Length:
@@ -266,7 +266,7 @@ http_interactions:
       Geocodetransactioncount:
       - '1'
       Last-Modified:
-      - Tue, 04 Aug 2020 19:30:03 GMT
+      - Tue, 04 Aug 2020 19:35:26 GMT
       Pragma:
       - no-cache
       Reversegeocodetransactioncount:
@@ -274,7 +274,7 @@ http_interactions:
       Server:
       - Apache-Coyote/1.1
       Set-Cookie:
-      - JSESSIONID=612ADE122309AB4481A6E87933AFCE85; Path=/; HttpOnly
+      - JSESSIONID=1779E635ED98EF4E0842CC73A84DDE7D; Path=/; HttpOnly
       Status:
       - success
       Transactionweight:
@@ -297,7 +297,7 @@ http_interactions:
         Avenue","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"New
         Market","adminArea5Type":"City","adminArea4":"","adminArea4Type":"County","adminArea3":"IA","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"50857,
         51646","geocodeQualityCode":"B3CCA","geocodeQuality":"STREET","dragPoint":false,"sideOfStreet":"N","linkId":"US/STR/p1/2231540","unknownInput":"","type":"s","latLng":{"lat":40.79236,"lng":-94.87125},"displayLatLng":{"lat":40.79236,"lng":-94.87125}},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Denver","adminArea5Type":"City","adminArea4":"","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"US/GEO/p0/85068","unknownInput":"","type":"s","latLng":{"lat":39.73845,"lng":-104.98485},"displayLatLng":{"lat":39.73845,"lng":-104.98485}}]}]}'
-  recorded_at: Tue, 04 Aug 2020 19:30:03 GMT
+  recorded_at: Tue, 04 Aug 2020 19:35:26 GMT
 - request:
     method: get
     uri: http://www.mapquestapi.com/geocoding/v1/address/?inFormat=kvp&key=wiuynlc4KmQXn7lckG55CpDAoRXwoqnB&location=%7B%22location%22=%3E%22denver,co%22%7D&outFormat=json&thumbMaps=false
@@ -317,7 +317,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 04 Aug 2020 19:30:04 GMT
+      - Tue, 04 Aug 2020 19:35:27 GMT
       Content-Type:
       - application/json;charset=UTF-8
       Content-Length:
@@ -333,7 +333,7 @@ http_interactions:
       Geocodetransactioncount:
       - '1'
       Last-Modified:
-      - Tue, 04 Aug 2020 19:30:04 GMT
+      - Tue, 04 Aug 2020 19:35:27 GMT
       Pragma:
       - no-cache
       Reversegeocodetransactioncount:
@@ -341,7 +341,7 @@ http_interactions:
       Server:
       - Apache-Coyote/1.1
       Set-Cookie:
-      - JSESSIONID=6A0F61464F3F275C64B6959BC5082DBE; Path=/; HttpOnly
+      - JSESSIONID=F10C4A7AF0D33CEAE373C74873E6415B; Path=/; HttpOnly
       Status:
       - success
       Transactionweight:
@@ -364,7 +364,7 @@ http_interactions:
         Avenue","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"New
         Market","adminArea5Type":"City","adminArea4":"","adminArea4Type":"County","adminArea3":"IA","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"50857,
         51646","geocodeQualityCode":"B3CCA","geocodeQuality":"STREET","dragPoint":false,"sideOfStreet":"N","linkId":"US/STR/p1/2231540","unknownInput":"","type":"s","latLng":{"lat":40.79236,"lng":-94.87125},"displayLatLng":{"lat":40.79236,"lng":-94.87125}},{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Denver","adminArea5Type":"City","adminArea4":"","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"US/GEO/p0/85068","unknownInput":"","type":"s","latLng":{"lat":39.73845,"lng":-104.98485},"displayLatLng":{"lat":39.73845,"lng":-104.98485}}]}]}'
-  recorded_at: Tue, 04 Aug 2020 19:30:04 GMT
+  recorded_at: Tue, 04 Aug 2020 19:35:27 GMT
 - request:
     method: get
     uri: http://api.openweathermap.org/data/2.5/onecall?appid=ca343676cf7bc460440399de9fab4f40&lat=39.72906&lon=-105.16534&units=imperial
@@ -386,7 +386,7 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Tue, 04 Aug 2020 19:30:04 GMT
+      - Tue, 04 Aug 2020 19:35:27 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -461,5 +461,5 @@ http_interactions:
         clouds","icon":"04d"}],"clouds":63,"pop":0,"uvi":10.98},{"dt":1597086000,"sunrise":1597061321,"sunset":1597111400,"temp":{"day":90.7,"min":72.95,"max":92.68,"night":76.01,"eve":87.57,"morn":72.95},"feels_like":{"day":82.9,"night":67.5,"eve":79.74,"morn":64.76},"pressure":1010,"humidity":10,"dew_point":15.49,"wind_speed":6.22,"wind_deg":329,"weather":[{"id":801,"main":"Clouds","description":"few
         clouds","icon":"02d"}],"clouds":16,"pop":0,"uvi":10.37},{"dt":1597172400,"sunrise":1597147778,"sunset":1597197725,"temp":{"day":89.26,"min":70.39,"max":89.26,"night":72.03,"eve":77.27,"morn":70.39},"feels_like":{"day":82.58,"night":65.8,"eve":61.63,"morn":63.46},"pressure":1010,"humidity":11,"dew_point":19.62,"wind_speed":4.5,"wind_deg":103,"weather":[{"id":802,"main":"Clouds","description":"scattered
         clouds","icon":"03d"}],"clouds":25,"pop":0.16,"uvi":10.45}]}'
-  recorded_at: Tue, 04 Aug 2020 19:30:05 GMT
+  recorded_at: Tue, 04 Aug 2020 19:35:27 GMT
 recorded_with: VCR 6.0.0
