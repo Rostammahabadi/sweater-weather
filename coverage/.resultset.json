@@ -1,0 +1,38 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/rostammahabadi/Mod3/sweater_weather/app/services/mapquest_direction_service.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1596554711
+  }
+}
