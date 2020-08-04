@@ -1,12 +1,15 @@
 class MapquestFacade
-  attr_reader :location
+  attr_reader :location, :lat_long
   def initialize(location)
     @location = location
-    @service ||= MapquestAddressService.new
+    @lat_long = get_lat_and_long
   end
 
   def get_lat_and_long
-    @service.get_lat_and_long(@location)
+    MapquestAddressService.new.get_lat_and_long(@location)
   end
 
+  def get_directions
+    MapquestDirectionService.new.get_distance
+  end
 end
