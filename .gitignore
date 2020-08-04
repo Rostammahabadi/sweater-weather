@@ -23,6 +23,7 @@
 !/storage/.keep
 .byebug_history
 coverage/
+application.yml
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
