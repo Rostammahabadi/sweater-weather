@@ -8,8 +8,4 @@ class MapquestFacade
   def get_lat_and_long
     MapquestAddressService.new.get_lat_and_long(@location)
   end
-
-  def get_directions
-    MapquestDirectionService.new.get_distance
-  end
 end
