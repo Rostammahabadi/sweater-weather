@@ -5,7 +5,7 @@ class Api::V1::SessionsController < ApplicationController
       if user.authenticate(params[:password])
         render json: UserSerializer.new(user)
       else
-        render json: {error: "Incorrect password" }, status: 400
+        render json: Error.new.incorrect_password, status: 400
       end
     else
       render json: {error: "User does not exist"}, status: 400

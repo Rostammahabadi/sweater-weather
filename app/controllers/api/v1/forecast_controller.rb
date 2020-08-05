@@ -3,7 +3,7 @@ class Api::V1::ForecastController < ApplicationController
     if create_weather_objects
       render json: ForecastSerializer.new(Weather.new(create_weather_objects.response))
     else
-      render json: {error: "Incorrect city/state combination"}, status: 400
+      render json: Error.new.city_state_combo, status: 400
     end
   end
 

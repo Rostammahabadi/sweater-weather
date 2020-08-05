@@ -22,7 +22,7 @@ describe "road trip" do
       post '/api/v1/road_trip', params: {origin: "denveasdf", destination: "boulder,co", api_key: "#{user.api_key}"}
 
       json = JSON.parse(response.body, symbolize_names: true)
-      expect(json[:error]).to eq("Invalid city/state combination")
+      expect(json[:error]).to eq("Incorrect city/state combination")
     end
   end
   it "gives an error message when incorrect destination" do
@@ -31,7 +31,7 @@ describe "road trip" do
       post '/api/v1/road_trip', params: {origin: "boulder,co", destination: "asdf", api_key: "#{user.api_key}"}
 
       json = JSON.parse(response.body, symbolize_names: true)
-      expect(json[:error]).to eq("Invalid city/state combination")
+      expect(json[:error]).to eq("Incorrect city/state combination")
     end
   end
   it "gives an error message when incorrect credentials" do

@@ -22,7 +22,7 @@ describe "users" do
       post '/api/v1/users', params: {email: "asdf@gmail.com", password: "asdf", password_confirmation: "asdf"}
 
       json = JSON.parse(response.body, symbolize_names: true)
-      expect(json[:error][:email]).to eq(["has already been taken"])
+      expect(json[:error]).to eq(["email has already been taken"])
     end
   end
   it "errors when the passwords don't match" do
@@ -32,7 +32,7 @@ describe "users" do
 
       json = JSON.parse(response.body, symbolize_names: true)
 
-      expect(json[:error][:password_confirmation]).to eq(["doesn't match Password"])
+      expect(json[:error]).to eq(["password_confirmation doesn't match Password"])
     end
   end
   it "errors when the user does not give an e-mail address" do
@@ -42,7 +42,7 @@ describe "users" do
 
       json = JSON.parse(response.body, symbolize_names: true)
 
-      expect(json[:error][:email]).to eq(["is invalid"])
+      expect(json[:error]).to eq(["email is invalid"])
     end
   end
 end
